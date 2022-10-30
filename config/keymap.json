@@ -15,7 +15,7 @@
        "&kp LEFT_WIN",        "&kp GRAVE", "&kp LEFT_BRACKET", "&macro_kinesis",  "&none", "&kp LEFT_SHIFT",           "&kp SPACE", "&kp BACKSPACE", "&kp DELETE", "&kp ENTER", "&kp SPACE",   "&kp UP",  "&kp DOWN",  "&kp LBKT", "&kp RBKT",  "&mo 2"
     ], [
        "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&macro_disp_left", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&macro_disp_left", "&trans",  "&none", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans"
