@@ -2,5 +2,5 @@ macro_disp_left: macro_disp_left{
 compatible = "zmk,behavior-macro";
 label = "macro_disp_left";
 #binding-cells = <0>;
-bindings = ;
+bindings = <&mt LEFT_GUI LCTRL>, <&kp RIGHT>;
 };
