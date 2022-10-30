@@ -2,11 +2,11 @@ macro_disp_right: macro_disp_right{
 compatible = "zmk,behavior-macro";
 label = "macro_disp_right";
 #binding-cells = <0>;
-bindings = <&mp LGUI>, <&mp LS>, <&kp RIGHT>;
+bindings = <&macro_press &kp LGUI>, <&macro_press  &kp LS>, <&kp RIGHT>, <&macro_release &kp LGUI>, <&macro_release &kp LS>;
 };
 macro_disp_left: macro_disp_left{
 compatible = "zmk,behavior-macro";
 label = "macro_disp_left";
 #binding-cells = <0>;
-bindings = <&mp LGUI>, <&mp LS>, <&kp LEFT>;
+bindings = <&macro_press &kp LGUI>, <&macro_press  &kp LS>, <&kp LEFT>, <&macro_release &kp LGUI>, <&macro_release &kp LS>;
 };
