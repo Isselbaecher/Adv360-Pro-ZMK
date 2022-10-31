@@ -1,16 +1,42 @@
+macro_tmux_up: macro_tmux_up{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_up";
+#binding-cells = <0>;
+bindings = <&macro tmux>, <&kp UP>;
+};
+macro_tmux_down: macro_tmux_down{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_down";
+#binding-cells = <0>;
+bindings = <&macro tmux>, <&kp DOWN>;
+};
+macro_tmux_right: macro_tmux_right{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_right";
+#binding-cells = <0>;
+bindings = <&macro tmux>, <&kp RIGHT>;
+};
+macro_tmux_left: macro_tmux_left{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_left";
+#binding-cells = <0>;
+bindings = <&macro tmux>, <&kp LEFT>;
+};
+macro_tmux: macro_tmux{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux";
+#binding-cells = <0>;
+bindings = <&sk LEFT_CONTROL>, <&kp B>;
+};
 macro_disp_right: macro_disp_right{
 compatible = "zmk,behavior-macro";
 label = "macro_disp_right";
 #binding-cells = <0>;
-wait-ms = <20>;
-tap-ms = <30>;
 bindings = <&macro_press &kp LGUI &kp LCTRL>, <&macro_tap &kp RIGHT>, <&macro_release &kp LGUI &kp LCTRL>;
 };
 macro_disp_left: macro_disp_left{
 compatible = "zmk,behavior-macro";
 label = "macro_disp_left";
 #binding-cells = <0>;
-wait-ms = <20>;
-tap-ms = <30>;
 bindings = <&macro_press &kp LGUI &kp LCTRL>, <&macro_tap &kp LEFT>, <&macro_release &kp LGUI &kp LCTRL>;
 };
