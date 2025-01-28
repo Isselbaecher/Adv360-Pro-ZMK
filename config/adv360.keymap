@@ -40,21 +40,21 @@
 
         default_layer {
             bindings = <
-    &kp EQUAL            &kp N1            &kp N2             &kp N3     &kp N4  &kp N5               &tog 1                                                                            &none  &kp N6  &kp N7    &kp N8    &kp N9    &kp N0      &kp MINUS
-      &kp TAB  &kp SINGLE_QUOTE         &kp COMMA            &kp DOT      &kp P   &kp Y                &none                                                                            &none   &kp F   &kp G     &kp C     &kp R     &kp L      &kp SLASH
-      &kp ESC             &kp A             &kp O              &kp E      &kp U   &kp I                &none       &kp LCTRL       &kp LALT                    &kp LGUI  &kp RCTRL      &none   &kp D   &kp H     &kp T     &kp S     &kp S  &kp BACKSLASH
-    &kp LSHFT     &kp SEMICOLON             &kp Q              &kp J      &kp K   &kp X                                               &sl 1                     &kp END                         &kp B   &kp M     &kp W     &kp V     &kp Z          &none
- &kp LEFT_WIN         &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT                    &kp SPACE  &kp LEFT_SHIFT  &kp BACKSPACE                  &kp DELETE  &kp SPACE  &kp ENTER          &kp UP  &kp DOWN  &kp LBKT  &kp RBKT          &mo 2
+    &kp EQUAL            &kp N1            &kp N2             &kp N3     &kp N4  &kp N5            &macro_kinesis                                                                            &none  &kp N6               &kp N7                &kp N8    &kp N9    &kp N0      &kp MINUS
+      &kp TAB  &kp SINGLE_QUOTE         &kp COMMA            &kp DOT      &kp P   &kp Y                     &sl 1                                                                            &sl 3   &kp F                &kp G                 &kp C     &kp R     &kp L      &kp SLASH
+      &kp ESC             &kp A             &kp O              &kp E      &kp U   &kp I                     &sl 2       &kp LCTRL       &kp LALT                    &kp LGUI  &kp RCTRL      &none   &kp D                &kp H                 &kp T     &kp S     &kp S  &kp BACKSLASH
+        &sl 2     &kp SEMICOLON             &kp Q              &kp J      &kp K   &kp X                                                    &mo 1                     &kp END                         &kp B                &kp M                 &kp W     &kp V     &kp Z          &sl 2
+ &kp LEFT_WIN         &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT                         &kp SPACE  &kp LEFT_SHIFT  &kp BACKSPACE                  &kp DELETE  &kp SPACE  &kp ENTER          &macro_display_left  &macro_display_right  &kp LBKT  &kp RBKT    &macro_tmux
             >;
         };
 
-        layer_keypad {
+        layer_movement {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &trans                                                                 &none  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T               &none                                                                 &none   &kp Y   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
-   &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp H   &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS    &kp SQT
- &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                 &kp HOME                  &kp PG_UP                         &kp N   &kp KP_N1     &kp KP_N2      &kp KP_N3     &kp KP_ENTER  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp KP_N0              &kp UP      &kp DOWN     &kp KP_DOT         &kp RBKT      &mo 2
+ &trans  &trans               &trans    &trans                &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &macro_display_left    &trans  &macro_display_right  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans             &kp LEFT    &kp UP             &kp RIGHT  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans               &trans  &kp DOWN                 &kp V  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans               &trans    &trans                &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
