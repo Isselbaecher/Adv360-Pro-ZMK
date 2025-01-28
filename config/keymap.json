@@ -5,7 +5,7 @@
   "layer_names": [
     "base",
     "movement",
-    "fn",
+    "tmux",
     "mod"
   ],
   "layers": [
