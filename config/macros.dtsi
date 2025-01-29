@@ -2,7 +2,7 @@ macro_display_left: macro_display_left{
 compatible = "zmk,behavior-macro";
 label = "macro_display_left";
 #binding-cells = <0>;
-bindings = <&kt LWIN>, <&kp LCTRL>, <&kp LEFT>, <&kt LWIN>, <&kt LCTRL>;
+bindings = <&kt LWIN>, <&kt LCTRL>, <&kp LEFT>, <&kt LWIN>, <&kt LCTRL>;
 };
 macro_display_right: macro_display_right{
 compatible = "zmk,behavior-macro";
