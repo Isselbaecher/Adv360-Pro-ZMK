@@ -42,7 +42,7 @@
             bindings = <
     &kp EQUAL            &kp N1            &kp N2             &kp N3     &kp N4  &kp N5            &macro_kinesis                                                                            &none  &kp N6               &kp N7                &kp N8    &kp N9    &kp N0      &kp MINUS
       &kp TAB  &kp SINGLE_QUOTE         &kp COMMA            &kp DOT      &kp P   &kp Y                     &sl 1                                                                            &sl 3   &kp F                &kp G                 &kp C     &kp R     &kp L      &kp SLASH
-      &kp ESC             &kp A             &kp O              &kp E      &kp U   &kp I                     &sl 2       &kp LCTRL       &kp LALT                    &kp LGUI  &kp RCTRL      &none   &kp D                &kp H                 &kp T     &kp S     &kp S  &kp BACKSLASH
+      &kp ESC             &kp A             &kp O              &kp E      &kp U   &kp I                     &sl 2       &kp LCTRL       &kp LALT                    &kp LGUI  &kp RCTRL      &none   &kp D                &kp H                 &kp T     &kp N     &kp S  &kp BACKSLASH
         &sl 2     &kp SEMICOLON             &kp Q              &kp J      &kp K   &kp X                                                    &mo 1                     &kp END                         &kp B                &kp M                 &kp W     &kp V     &kp Z          &sl 2
  &kp LEFT_WIN         &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT                         &kp SPACE  &kp LEFT_SHIFT  &kp BACKSPACE                  &kp DELETE  &kp SPACE  &kp ENTER          &macro_display_left  &macro_display_right  &kp LBKT  &kp RBKT    &macro_tmux
             >;
